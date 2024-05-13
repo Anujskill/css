@@ -1,0 +1,104 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; 
+}
+
+.box-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background: #000;
+}
+
+img {
+    width: 222px;
+}
+
+.box {
+    background-color: #16151a;
+    width: 270px;
+    padding: 24px;
+    border-radius: 8px;
+}
+
+.tema {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 35px;
+}
+
+samp.samp-tem {
+    color: #fff;
+    padding: 5px;
+}
+
+h3 {
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 19px;
+    color: #fff;
+    font-family: 'Jost', sans-serif;
+    padding: 20px 0px;
+    transition: all 0.5s;
+}
+
+.box:hover h2{
+    color: #030FFF;
+    transition: all 0.5s;
+}
+
+img.avatar {
+    width: 48px;
+    border-radius: 60px;
+}
+
+.img-\@ {
+    display: flex;
+    align-items: center;
+    padding-bottom: 21px;
+}
+
+samp.john {
+    color: #fff;
+    margin: 0px 0px 0px 8px;
+
+}
+
+.box:hover samp.john{
+    color: #030FFF;
+    transition: all 0.5s;
+}
+
+span.bnb2 {
+    color: #fff;
+}
+
+.bnb {
+    display: flex;
+    justify-content: space-between;
+}
+
+a.coll {
+    text-decoration: none;
+}   
