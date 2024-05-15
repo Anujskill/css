@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenar{
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.menu{
+    text-decoration: none;
+    color: aliceblue;
+    margin: 0 10px 0;
+    padding: 8px 10px;
+}
+
+.header{
+    background-color: #000;
+}
+
+h1{
+    color: #fff;
+}
+
+.menu:hover{
+    background-color: rgb(20, 88, 65);
+    padding: 8px 10px;
+    border-radius: 20px;
+}
